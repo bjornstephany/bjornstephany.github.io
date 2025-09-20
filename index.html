@@ -1,12 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bjorn Stephany's Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Bjorn Stephany</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bjorn Stephany is in love with Mathilde Belin</h1>
-    <img src="kissingMathildeOnCouch.jpg" alt="">
+  <div class="container">
+    <header>
+      <a class="logo" href="#">
+        <div>
+          <div class="logo-name">Bjorn Stephany</div>
+          <div class="logo-role">Developer - Computer Science Student</div>
+        </div>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="intro">
+        <h1>Hello, I’m Bjorn!</h1>
+        <p>I am a passionate developer interested in Machine learning and robotics. Currently I am studying Computer Science at Maastricht Univerisity.</p>
+      </div>
+      <div class="profile-card">
+        <img class="avatar" src="/CV_Informal_Pic.jpg" alt="Your photo">
+        <div class="roles">Developer</div>
+      </div>
+    </section>
+
+    <main>
+      <section id="work" class="card">
+        <h2>Selected Work</h2>
+        <div class="grid-portfolio">
+          <div class="project">
+            <h3>Text Based Adventure Game</h3>
+            <p>Short description of the project.</p>
+          </div>
+          <div class="project">
+            <h3>School Project</h3>
+            <p>Short description of the project.</p>
+          </div>
+          <div class="project">
+            <h3>Machine Learning Project</h3>
+            <p>Short description of the project.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Email: BjornStephany@gmail.com</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2025 Bjorn Stephany. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>

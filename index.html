@@ -1,69 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio — Bjorn Stephany</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bjorn Stephany — Software Engineering Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a class="logo" href="#">
-        <div>
-          <div class="logo-name">Bjorn Stephany</div>
-          <div class="logo-role">Developer - Computer Science Student</div>
-        </div>
-      </a>
+<div class="page">
+<nav><a href="#projects">projects</a><a href="#experience">experience</a><a href="#education">education</a><a href="#skills">skills</a><a href="#contact">contact</a></nav>
 
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<header>
+<figure class="headshot"><span>headshot</span><img src="CV_HEADSHOT_LINEN.jpeg" alt="Portrait of Bjorn Stephany" onerror="this.remove()"></figure>
+<h1>Bjorn Stephany</h1>
+<p class="sub">Computer Science student · Maastricht University</p>
+<p class="intro">I study software engineering and AI, and I like building things that run: robots, data pipelines, and small web apps. I'm looking for internships and projects where I can keep learning by shipping.</p>
+</header>
 
-    <section class="hero">
-      <div class="intro">
-        <h1>Hello, I’m Bjorn!</h1>
-        <p>I am a passionate developer interested in Machine learning and robotics. Currently I am studying Computer Science at Maastricht Univerisity.</p>
-      </div>
-      <div class="profile-card">
-        <img class="avatar" src="/CV_Informal_Pic.jpg" alt="Your photo">
-        <div class="roles">Developer</div>
-      </div>
-    </section>
+<section id="projects">
+<h2>Projects</h2>
+<div class="timeline">
+<div class="item next"><h3>Project title</h3>
+<div class="meta"><span class="tools">Tech stack</span><span>Coming soon</span></div>
+<p class="d">Short description goes here.</p>
+<a class="shot" href="#" aria-label="Project title: image and link to be added">Image + link coming soon</a></div>
+<div class="item next"><h3>Project title</h3>
+<div class="meta"><span class="tools">Tech stack</span><span>Coming soon</span></div>
+<p class="d">Short description goes here.</p>
+<a class="shot" href="#" aria-label="Project title: image and link to be added">Image + link coming soon</a></div>
+<div class="item"><h3>ML-Agents Training Predictor</h3>
+<div class="meta"><span class="tools">Python, C#, Unity, pandas, scikit-learn</span><span>Sep 2026 – now</span></div>
+<p class="d">Predicting how long reinforcement learning runs will take and how well the agent ends up performing.</p>
+<a class="shot" href="#" aria-label="ML-Agents Training Predictor: image and link to be added">Image + link coming soon</a></div>
+<div class="item"><h3>SuperNova Hackathon App</h3>
+<div class="meta"><span class="tools">Web app, FireCrawl</span><span>Feb 2026</span></div>
+<p class="d">A 48-hour team build that writes personalized outreach emails to startup founders.</p>
+<a class="shot" href="#" aria-label="SuperNova Hackathon App: image and link to be added">Image + link coming soon</a></div>
+<div class="item"><h3>Autonomous Robot</h3>
+<div class="meta"><span class="tools">Java, C</span><span>Sep – Dec 2025</span></div>
+<p class="d">A maze-solving robot with sensors, an Adafruit microcontroller, and a Java control panel.</p>
+<a class="shot" href="#" aria-label="Autonomous Robot: image and link to be added">Image + link coming soon</a></div>
+</div>
+</section>
 
-    <main>
-      <section id="work" class="card">
-        <h2>Selected Work</h2>
-        <div class="grid-portfolio">
-          <div class="project">
-            <h3>Text Based Adventure Game</h3>
-            <p>Short description of the project.</p>
-          </div>
-          <div class="project">
-            <h3>School Project</h3>
-            <p>Short description of the project.</p>
-          </div>
-          <div class="project">
-            <h3>Machine Learning Project</h3>
-            <p>Short description of the project.</p>
-          </div>
-        </div>
-      </section>
+<section id="experience">
+<h2>Experience</h2>
+<h3>Treasurer, Student Project Team</h3>
+<div class="meta"><span>Maastricht University</span><span>Sep 2026 – now</span></div>
+<ul>
+<li>Manage a €5,000 annual budget across several funding sources, tracked in Excel and UM's SAP finance platform.</li>
+<li>Own the financial process from invoice approval to reimbursement, working with the university's finance departments.</li>
+<li>Wrote a handover manual so the next treasurer can pick up smoothly.</li>
+</ul>
+<h3>After-School Instructor</h3>
+<div class="meta"><span>Smart Health and Science</span><span>Sep 2025 – Jun 2026</span></div>
+<ul>
+<li>Led programming classes with interactive projects that built students' problem-solving skills and focus.</li>
+<li>Explained complex programming ideas in simple terms.</li>
+</ul>
+<h3>Careers Committee Member</h3>
+<div class="meta"><span>Incognito Student Association</span><span>Sep 2025 – Jun 2026</span></div>
+<ul>
+<li>Organized career events for students, including company presentations, workshops, and networking sessions.</li>
+<li>Planned and promoted committee activities, and handled logistics on the day.</li>
+</ul>
+</section>
 
-      <section id="contact" class="card">
-        <h2>Contact</h2>
-        <p>Email: BjornStephany@gmail.com</p>
-      </section>
-    </main>
+<section id="education">
+<h2>Education</h2>
+<h3>BSc Computer Science, Maastricht University</h3>
+<div class="meta"><span>GPA 7.58/10</span><span>2025 – 2028</span></div>
+<p class="tools">Software Engineering, AI &amp; Machine Learning, Data Structures &amp; Algorithms, Database Architecture, Parallel Programming, Computer Networks</p>
+</section>
 
-    <footer>
-      © 2025 Bjorn Stephany. All rights reserved.
-    </footer>
-  </div>
+<section id="skills" class="skills">
+<h2>Skills</h2>
+<p><b>Languages</b> <span>Java, C, C#, JavaScript, Python, SQL</span></p>
+<p><b>ML and data</b> <span>pandas, scikit-learn, Unity ML-Agents</span></p>
+<p><b>Tools</b> <span>GitHub, Linux, Unity, Excel, SAP</span></p>
+<p><b>Spoken</b> <span>English (native), French (fluent), Spanish (intermediate)</span></p>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<p>Say hello, or ask about a project.</p>
+<a class="big" href="mailto:bjornstephany@gmail.com">bjornstephany@gmail.com</a>
+<a href="https://github.com/bjornstephany">github.com/bjornstephany</a>
+<a href="https://linkedin.com/in/bjornstephany">linkedin.com/in/bjornstephany</a>
+</section>
+</div>
 </body>
 </html>
